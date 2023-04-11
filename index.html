@@ -66,13 +66,50 @@
         </button>
       </nav>
     </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__line"></li>
+          <li>
+            <button class="mobile-nav__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li class="mobile-nav__btn btn">Resume</li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- End of Mobile Navigation -->
     <main>
       <section class="hero container">
         <img class="hero__img" src="/Profile.png" alt="Profile Picture" />
         <h2 class="hero__subtitle">Hi, I'm Isbat</h2>
         <h1 class="hero__title">
           Fullstack<br />
-          Webdeveloper
+          Webdeveloper.
         </h1>
         <p class="hero__description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda a,
@@ -83,7 +120,7 @@
         <button class="hero__btn btn">Reach out</button>
       </section>
 
-      <section class="about container section">
+      <section class="about container section" id="about">
         <div class="about__content">
           <h2 class="about__title">About</h2>
           <p class="about_description">
@@ -119,7 +156,7 @@
           <img class="about__img" src="/programming.png" alt="programming" />
         </div>
       </section>
-      <section class="featured container section">
+      <section class="featured container section" id="featured">
         <h3 class="featured__subtitle">Featured Project</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">Lorem ipsum</h2>
@@ -197,26 +234,27 @@
       <section class="work container section">
         <h2 class="work__title">Projects</h2>
         <p class="work__description">
-          Mollit pariatur tempor nisi dolor non consequat magna cupidatat reprehenderit. Aliquip excepteur ullamco aliquip magna est et commodo deserunt ipsum.
+          Mollit pariatur tempor nisi dolor non consequat magna cupidatat
+          reprehenderit. Aliquip excepteur ullamco aliquip magna est et commodo
+          deserunt ipsum.
         </p>
         <div class="work__container">
-
           <!-- Project 1 -->
           <h3 class="work__project-title">Wax Motiff</h3>
           <div class="work__img-wrapper work__image1">
             <img src="/projects/waxmoney.png" alt="Wax Motiff Website" />
           </div>
-          <div class="work__project work__content1"> 
+          <div class="work__project work__content1">
             <div class="work__project-subtitle">Wax Motiff</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
@@ -225,17 +263,17 @@
           <div class="work__img-wrapper work__image2">
             <img src="/projects/drazeforce.png" alt="Draze Force Website" />
           </div>
-          <div class="work__project work__content2"> 
+          <div class="work__project work__content2">
             <div class="work__project-subtitle">Draze Force</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
@@ -244,17 +282,17 @@
           <div class="work__img-wrapper work__image3">
             <img src="/projects/artren.png" alt="Artren Website" />
           </div>
-          <div class="work__project work__content3"> 
+          <div class="work__project work__content3">
             <div class="work__project-subtitle">Artren</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
@@ -263,17 +301,17 @@
           <div class="work__img-wrapper work__image4">
             <img src="/projects/platformpro.png" alt="Platform Pro Website" />
           </div>
-          <div class="work__project work__content4"> 
+          <div class="work__project work__content4">
             <div class="work__project-subtitle">Platform Pro</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
@@ -282,17 +320,17 @@
           <div class="work__img-wrapper work__image5">
             <img src="/projects/wallysvegan.png" alt="Wally's Vegan Website" />
           </div>
-          <div class="work__project work__content5"> 
+          <div class="work__project work__content5">
             <div class="work__project-subtitle">Wally's Vegan</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
@@ -301,41 +339,48 @@
           <div class="work__img-wrapper work__image6">
             <img src="/projects/portfolio.png" alt="PortFolio Website" />
           </div>
-          <div class="work__project work__content6"> 
-            <div class="work__project-subtitle">
-              Portfolio
-            </div>
+          <div class="work__project work__content6">
+            <div class="work__project-subtitle">Portfolio</div>
             <p class="work__project-desc1">
-              Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-              pariatur deserunt do ad exercitation.
+              Labore magna ut non labore Lorem nisi culpa sint et quis sint.
+              Enim pariatur deserunt do ad exercitation.
             </p>
             <p class="work__project-desc2">
               Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
               commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-              tempor ullamco aliqua consectetur incididunt anim dolor sunt laboris
-              adipisicing cupidatat sint.
+              tempor ullamco aliqua consectetur incididunt anim dolor sunt
+              laboris adipisicing cupidatat sint.
             </p>
             <a href="#" class="btn work__project-btn">Website</a>
           </div>
-        </section>
         </div>
-      <section class="contact section container">
+      </section>
+      <section class="contact section container" id="contact">
         <h2 class="contact__title">Get in Contact</h2>
         <p class="contact__description">
-          Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible.
+          Whether you are starting a project, have business inquiries or just
+          want to say hi, my inbox is always open so feel free to reach out and
+          I will get back to you as soon as possible.
         </p>
-        <a href="mailto:isbatbinhossain@gmail.com" target="_blank" class="contact__btn btn">Reach Out</a>
+        <a
+          href="mailto:isbatbinhossain@gmail.com"
+          target="_blank"
+          class="contact__btn btn"
+          >Reach Out</a
+        >
       </section>
     </main>
     <footer class="footer container section">
       <h3 class="footer__title">~ Isbat-Bin-Hossain ~</h3>
-      <a class="footer__link"
+      <a
+        class="footer__link"
         href="https://www.flaticon.com/free-stickers/web-programming"
         title="web programming stickers"
         target="_blank"
         >Web programming sticker by kerismaker</a
       >
     </footer>
+    <!-- <script src="./src/utils/mobile-nav menu"></script> -->
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
