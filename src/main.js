@@ -11,5 +11,8 @@ import "../styles/components/footer.css";
 import "../styles/utils.css";
 import MobileNavFn from "./utils/mobile-nav menu";
 import DarkMode from "./utils/dark-mode";
+import LazyLoading from "./utils/lazy-loading";
+
 MobileNavFn();
 DarkMode();
+LazyLoading();
