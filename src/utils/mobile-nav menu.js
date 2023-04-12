@@ -1,4 +1,4 @@
-const mobileNavFn = () => {
+const MobileNavFn = () => {
   const headerBtn = document.querySelector(".header__bars");
   const mobileLinks = document.querySelectorAll(".mobile-nav__link");
   const mobileNav = document.querySelector(".mobile-nav");
@@ -27,4 +27,4 @@ const mobileNavFn = () => {
   }
 };
 
-export default mobileNavFn;
+export default MobileNavFn;

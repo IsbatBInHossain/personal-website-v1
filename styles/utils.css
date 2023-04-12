@@ -22,7 +22,7 @@
   text-decoration: none;
   padding: 0.5em 1em;
   background-color: var(--clr-rose);
-  color: var(--clr-light);
+  color: #f1f5f9;
   letter-spacing: -0.05em;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
