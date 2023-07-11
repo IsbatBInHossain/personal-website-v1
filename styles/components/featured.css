@@ -42,10 +42,15 @@
   padding: 0;
   list-style: none;
 }
+.featured__info-list {
+  padding: 0;
+  list-style: disc;
+}
 .featured__info {
   font-size: var(--size-sm);
   color: var(--clr-slate600);
-  text-transform: capitalize;
+  max-width: 30ch;
+  margin-bottom: 3px;
 }
 .featured__img-container {
   margin-top: 1rem;
