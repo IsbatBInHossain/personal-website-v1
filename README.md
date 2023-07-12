@@ -1,6 +1,6 @@
 # Introduction
 
-This is a personal portfolio website (Still in demo phase). It has 7 sectioons:
+This is a personal portfolio website made using pure javascript, css and html. It has 7 sectioons:
 Header: The header section of your website will contain a logo, a navigation bar, and a toggle switch to switch between light mode and dark mode.
 
 **Hero:** The hero section is where you can showcase an image or a video that represents you and your work. It can also contain a brief introduction and a call-to-action button.

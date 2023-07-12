@@ -29,6 +29,7 @@
 }
 .mobile-nav__link:hover {
   color: var(--clr-rose);
+  cursor: pointer;
 }
 .mobile-nav__line {
   border: 1px solid var(--clr-slate800);
